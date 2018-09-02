@@ -11,26 +11,29 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.2px;
 }
 
 h4 {
-  font-size: 0.75rem;
-  font-weight: 400;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+
 }
 
 p {
   font-size: 1rem;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .btn {
   color: #9733EE;
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-weight: 400;
+  font-weight: normal;
   padding-top: 12px;
   letter-spacing: 0.1rem;
 }
@@ -51,7 +54,7 @@ p {
 }
 
 .brand {
-  font-weight: 600;
+  font-weight: bold;
   text-decoration-color: #9733EE;
 }
 
@@ -79,7 +82,7 @@ p {
 
 }
 
-/*cases */
+/* work */
 .case-item .case-content {
   flex: 1;
 }
@@ -104,19 +107,17 @@ p {
   margin-bottom: 32px;
 }
 
-
-
 .case-item .case-date {
   margin-bottom: 32px;
   color: grey;
   font-size: 0.75rem;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 /* about */
 .about {
-  background-color: black;
+  background-color: #DA22FF;
   color: white;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -130,22 +131,14 @@ p {
 }
 
 .about-text {
-  max-width: 580;
-  font-weight: 300;
+  max-width: 580px;
+  font-weight: normal;
   margin-bottom: 24px;
 }
 
 .about-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.xp-title,
-.edu-title {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  color: grey;
-  margin-bottom: 12px;
 }
 
 .xp,
@@ -160,14 +153,14 @@ p {
 .company,
 .scholl {
   padding: 12px 0px 12px 0px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .xp-role,
 .edu-type {
   padding-top: 4px;
   display: block;
-  font-weight: 200;
+  font-weight: lighter;
   color: red;
 }
 
@@ -192,7 +185,7 @@ p {
 .contact-description {
   font-size: 1.4rem;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 .email-btn {
@@ -207,7 +200,7 @@ p {
   margin-right: 30px;
 }
 
-/* Helpers */
+/* helpers */
 .bold {
   font-weight: 700;
 }
