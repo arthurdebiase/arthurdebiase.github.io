@@ -226,7 +226,7 @@ p {
   padding-left: 8px;
   font-size: 1.6rem;
   position: relative;
-  top: 4px;
+  top: 5px;
 }
 
 .contact-btn:hover i {
@@ -310,10 +310,38 @@ img {
   padding: 12px;
   font-size: 1.6rem;
   position: relative;
-  top: 4px;
+  top: 5px;
 }
 
 .date {
   font-size: 0.8rem;
   line-height: 1.5;
+}
+
+
+/* media query */
+@media (max-width: 760px) {
+  .cases-list > .container {
+    border: 1px solid rgba(13, 13, 13, .1);
+    border-radius: 3px;
+    padding: 32px 32px 48px 32px;
+    margin: 0px 24px 56px 24px;
+  }
+  .case-item {
+    flex-direction: column;
+    margin: 0;
+  }
+  .case-item .case-image {
+    order: -1;
+    margin-bottom: 24px;
+  }
+  .cases-list {
+    padding: 0;
+  }
+  .about {
+    padding-top: 56px;
+  }
+  .about-title {
+    margin-bottom: 40px;
+  }
 }
