@@ -57,9 +57,15 @@ p {
   display: flex;
 }
 
-.navigation .list-item:not(:last-child) {
-  margin-right: 30px;
+.navigation .list-item {
+  padding-left: 30px;
 }
+
+.list-item:hover {
+  text-shadow: 1px 0 0 currentColor;
+}
+
+
 
 
 /* hero */
@@ -170,7 +176,7 @@ p {
   font-size: 1.75rem;
   text-transform: none;
   font-weight: bold;
-  margin: 0px 0px 24px 0px;
+  margin: 0px 0px 32px 0px;
 }
 
 .sub-footer {
@@ -180,20 +186,40 @@ p {
   font-size: 0.9rem;
 }
 
-.btns-link a {
+.resume-btn {
   font-size: 0.75rem;
-  margin-right: 12px;
   color: #F0F0F0;
-  border-color: #F0F0F0;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
+  border: 1px solid #F0F0F0;
+  padding: 12px;
+  border-radius: 3px;
 }
+
+.resume-btn:hover {
+  color: #0D0D0D;
+  background-color: #F0F0F0;
+}
+
+.contact-btn {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.contact-btn:hover {
+  color: #9733EE;
+}
+
 
 .email {
   font-size: 0.9rem;
-  padding-top: 12px;
+  padding-top: 32px;
+  opacity: 0.1;
 }
+
 
 .hr {
   margin: 40px 0px;
@@ -212,6 +238,11 @@ p {
 
 .social-list {
   display: flex;
+}
+
+.social-item:hover {
+  color: #9733EE;
+  text-shadow: 1px 0 0 currentColor;
 }
 
 .social-item:not(:last-child) {
@@ -235,14 +266,19 @@ img {
 
 .btn {
   color: #9733EE;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  font-weight: bold;
-  padding: 12px;
-  letter-spacing: 1px;
   border: 1px solid #9733EE;
   border-radius: 3px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px;
   display: inline-block;
+}
+
+.btn:hover {
+  background-color: #9733EE;
+  color: #F0F0F0;
 }
 
 .btn ::selection {
