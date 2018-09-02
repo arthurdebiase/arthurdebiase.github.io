@@ -1,0 +1,214 @@
+body {
+  font-family: Arial;
+  color: #0D0D0D;
+  background-color: #F0F0F0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 0.75rem;
+}
+
+h4 {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.btn {
+  color: #9733EE;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: normal;
+  padding-top: 12px;
+  letter-spacing: 1px;
+}
+
+.date {
+  margin: 0px 0px 24px 0px;
+  color: #C3C3C3;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+/* navbar */
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header > .container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .list {
+  display: flex;
+}
+
+.navigation .list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.navigation .list-link {
+  color: #9733EE;
+}
+
+/* hero */
+.hero > .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.hero h2 {
+  margin-bottom: 12px;
+}
+
+/* work */
+.case-item .case-content {
+  flex: 1;
+}
+
+.case-item h3 {
+  margin-bottom: 6px;
+}
+.case-item .case-image {
+  flex: 2;
+}
+
+.case-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 100px 0px;
+}
+
+.case-item .case-title {
+  margin-bottom: 8px;
+}
+
+.case-item .case-description {
+  padding-right: 32px;
+  margin-bottom: 32px;
+}
+
+/* about */
+.about {
+  background-color: #DA22FF;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about h4 {
+  color: #0D0D0D;
+}
+.about-title {
+  margin-bottom: 56px;
+}
+
+.about-description {
+  margin-bottom: 56px;
+}
+
+.about-text {
+  max-width: 580px;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.xp,
+.edu {
+  min-width: 300px;
+}
+
+.xp-item {
+  padding-bottom: 24px;
+}
+
+.company,
+.scholl {
+  padding: 12px 0px 12px 0px;
+  font-weight: white;
+}
+
+.institute {
+  display: block;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+/* footer */
+.footer > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  background-color: grey;
+  padding: 56px 0px 56px 0px;
+}
+
+.contact-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+.email-btn {
+  margin: 8px 0 8px 0;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* helpers */
+.bold {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
