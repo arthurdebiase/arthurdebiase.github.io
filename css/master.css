@@ -114,6 +114,8 @@ p {
   padding: 24px 40px 24px 0px;
 }
 
+
+
 /* about */
 .about ::selection {
   background: #0D0D0D;
@@ -124,7 +126,6 @@ p {
   color: #F0F0F0;
   padding: 80px 0px 56px 0px;
 }
-
 
 .about-role {
   padding: 2px 0px 0px 0px;
@@ -294,7 +295,11 @@ img {
   font-size: 0.8rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 12px;
+  padding: 12px 12px 12px 20px;
+}
+
+.btn-left {
+  padding: 12px 20px 12px 6px;
 }
 
 .btn:hover {

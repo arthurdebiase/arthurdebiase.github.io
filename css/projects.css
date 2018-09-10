@@ -1,0 +1,42 @@
+/* hero */
+.hero > .container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.hero {
+  height: 90%;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero h2 {
+    margin-bottom: 32px;
+}
+
+.project-description {
+  max-width: 450px;
+}
+
+.topic-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topic h4 {
+  margin: 24px 0px 8px 0px;;
+}
+
+.topic {
+  min-width: 50%;
+}
+
+
+/* image cover */
+.img-cover {
+  padding: 0px 24px;
+  height: 600px;
+}
