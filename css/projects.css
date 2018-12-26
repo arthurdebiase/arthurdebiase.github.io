@@ -13,6 +13,12 @@
   max-width: 500px;
 }
 
+.hero-title {
+  max-width: 900px;
+  font-size: 72px;
+  line-height: 1.5em;
+}
+
 .hero h2 {
     margin-bottom: 32px;
 }
