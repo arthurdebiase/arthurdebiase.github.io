@@ -1,0 +1,12 @@
+body {
+  font-family: "Inter UI", sans-serif;
+  color: #0d0d0d;
+  background-color: #f0f0f0;
+}
+
+.hero-title {
+  max-width: 950px;
+  font-size: 72px;
+  line-height: 1.2em;
+  font-weight: bold;
+}
