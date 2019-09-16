@@ -93,12 +93,16 @@ img {
 
 /* case */
 .case {
-  background-color: #EFF0EF;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 80px;
-  border-radius: 4px;
+  border-radius: 16px;
+}
+
+.case-bcredi {
+  background-color: #EDEDED;
 }
 
 .column-info {
@@ -111,11 +115,20 @@ img {
 .project-title {
   display: flex;
   margin-bottom: 16px;
+  color: white;
+}
+
+.title-bcredi {
+  color: #333;
 }
 
 .project-description {
   width: 324px;
-  margin-bottom: 24px;
+  color: white;
+}
+
+.description-bcredi {
+  color: #333;
 }
 
 .tipo-link {
@@ -186,7 +199,7 @@ img {
 
 /* footer */
 .footer {
-  padding: 56px 0px 56px 0px;
+  padding: 8px 0px 56px 0px;
   color: #F0F0F0;
 }
 
